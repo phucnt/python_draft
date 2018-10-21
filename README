@@ -1,0 +1,11 @@
+Step 1: Import database schema (/backend/db/db-schema.sql) into MySQL
+Step 2: Install Python PIP
+sudo apt-get install python-pip
+
+Step 3: Install dependencies
+sudo pip install -r requirements.txt
+
+Step 4: Modify database access info in file /backend/server/config.py
+
+Step 5: Run server
+python manager.py runserver
